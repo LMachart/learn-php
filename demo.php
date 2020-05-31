@@ -1,9 +1,12 @@
 salut les gens
 
 <?php
-$nom = 'Louis';
-echo $nom;
+$note = 20;
+$note2 = 20;
+
+$nom = 'Machart';
+$prenom = 'Louis';
+echo $nom . $prenom;
+echo ($note + $note2) /2;
 ?>
-
-
-comment ça va 
+ 
