@@ -6,7 +6,7 @@ $note2 = 20;
 
 $nom = 'Machart';
 $prenom = 'Louis';
-echo $nom . $prenom;
+echo $nom .  "\n" .$prenom;
 echo ($note + $note2) /2;
 ?>
  
