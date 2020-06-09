@@ -1,12 +1,20 @@
 <?php
 
-$note = (int) readline ('Entrez votre note :');
-if ($note > 10) {
-    echo 'Bravo vous avez la moyenne';
-} elseif ($note === 10) {
-    
-    echo 'Vous avez tout juste la moyenne';
+$action = (int) readline ('Entrez votre action  : ( 1: attaquer, 2: defendre, 3: passer mon tour)'  );
 
-} else {
-     echo 'Dommage vous n\'avez pas la moyenne';
+switch ($action) {
+    case 1:
+        echo 'J\'attaque';
+    break;
+
+    case 2: 
+        echo 'je defends';
+    break;
+    
+    case 3: 
+        echo 'je ne fais rien';
+    break;
+
+    default: 
+    echo 'commande inconnu';
 }
