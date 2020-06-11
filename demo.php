@@ -1,8 +1,5 @@
 <?php
-$chiffre = null; 
 
-while ($chiffre !== 10) {
-    $chiffre = (int) readline ('Entrez une heure : '); 
+for ($i = 0; $i < 10; $i++) {
+    echo "- $i   \n";
 }
-
-echo 'Bravo vous avez gagné';
